@@ -6,5 +6,9 @@ test('getMakes()', () => {
 });
 
 test('getModels("Toyota")', () => {
-  expect(getModels("Toyota")).toContain("Tundra");
+    expect(getModels("Toyota")).toContain("Tundra");
+});
+
+test('getModels("Unknown")', () => {
+    expect(getModels("Unknown")).toEqual([]);
 });
