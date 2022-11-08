@@ -1,6 +1,6 @@
 {
   "name": "cars",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Typescript Library for Car Make and Models",
   "types": "./dist/index.d.ts",
   "main": "./dist/index.js",
