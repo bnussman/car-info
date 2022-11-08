@@ -6,7 +6,9 @@
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "scripts": {
-    "build": "tsup"
+    "build": "tsup",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
   },
   "repository": {
     "type": "git",
@@ -15,11 +17,18 @@
   "bugs": {
     "url": "https://github.com/bnussman/cars/issues"
   },
-  "files": ["dist"],
-  "keywords": ["cars", "make", "model"],
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "cars",
+    "make",
+    "model"
+  ],
   "author": "Banks Nussman",
   "devDependencies": {
     "tsup": "^6.4.0",
-    "typescript": "^4.8.4"
+    "typescript": "^4.8.4",
+    "vitest": "^0.25.0"
   }
 }
