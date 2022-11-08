@@ -8,6 +8,7 @@
   "scripts": {
     "build": "tsup"
   },
+  "files": ["dist"],
   "keywords": ["cars", "make", "model"],
   "author": "Banks Nussman",
   "devDependencies": {
