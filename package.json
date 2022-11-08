@@ -7,8 +7,7 @@
   "module": "./dist/index.mjs",
   "scripts": {
     "build": "tsup",
-    "test": "vitest",
-    "coverage": "vitest run --coverage"
+    "test": "vitest"
   },
   "repository": {
     "type": "git",
