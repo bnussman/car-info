@@ -11,10 +11,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bnussman/cars.git"
+    "url": "https://github.com/bnussman/car-info.git"
   },
   "bugs": {
-    "url": "https://github.com/bnussman/cars/issues"
+    "url": "https://github.com/bnussman/car-info/issues"
   },
   "files": [
     "dist"
