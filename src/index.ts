@@ -537,7 +537,8 @@ const data = {
       "Thunderbird",
       "Transit Connect",
       "Windstar",
-      "ZX2 Escort"
+      "ZX2 Escort",
+      "Maverick"
     ]
   },
   "Freightliner": {
