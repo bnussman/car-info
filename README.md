@@ -6,6 +6,7 @@ Typescript Library for Car Make and Models 🚗
 
 - 🌎 Supports Web and Node.js
 - 🔒 Typescript type safety
+- 🚫 No dependencies
 
 ## `getMakes`
 Returns a list of makes (`Toyota`, `Ford`, `Acura`, ...)
