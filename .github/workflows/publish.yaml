@@ -1,45 +1,63 @@
-name: publish
+name: Build
 
 on:
-  release:
-    types: [created]
+  push:
 
 jobs:
   build:
+    name: 🔨 Build
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v3
 
-      - uses: actions/setup-node@v3
-        with:
-          node-version: '16.x'
-          registry-url: 'https://registry.npmjs.org'
-
-      - uses: pnpm/action-setup@v2
+      - uses: pnpm/action-setup@v2.2.4
         name: Install pnpm
         id: pnpm-install
         with:
-          version: 7
           run_install: false
+          version: latest
 
-      - name: Get pnpm store directory
-        id: pnpm-cache
-        shell: bash
-        run: |
-          echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
-
-      - uses: actions/cache@v3
-        name: Setup pnpm cache
+      - name: 🟩 Setup Node.js
+        uses: actions/setup-node@v2
         with:
-          path: ${{ steps.pnpm-cache.outputs.STORE_PATH }}
-          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
-          restore-keys: |
-            ${{ runner.os }}-pnpm-store-
+          node-version: latest
+          cache: pnpm
 
-      - name: Install dependencies
-        run: pnpm install
-      - name: Build package
+      - name: 🔨 Install
+        run: pnpm install --frozen-lockfile
+
+      - name: 🔨 Build
         run: pnpm build
-      - run: pnpm publish --no-git-checks
+
+      - name: 💾 Archive artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: dist
+          path: dist/
+
+  publish_npm:
+    name: 🔴 NPM publish
+    needs: ["build"]
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: 🟩 Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: latest
+
+      - name: ⬇️ Download artifacts
+        uses: actions/download-artifact@v2
+        with:
+          name: dist
+          path: dist/
+
+      - name: 🔴 NPM publish
+        continue-on-error: true
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NPM_TOKEN: ${{secrets.NPM_TOKEN}}
+        run: |
+          npm config set //registry.npmjs.org/:_authToken ${NPM_TOKEN}
+          npm publish --access public
