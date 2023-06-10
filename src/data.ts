@@ -715,6 +715,7 @@ export const data = {
       "Liberty",
       "Patriot",
       "Pickup",
+      "Renegade",
       "Scrambler",
       "Wagoneer",
       "Wrangler"
