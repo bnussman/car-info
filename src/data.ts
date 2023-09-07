@@ -727,6 +727,7 @@ export const data = {
       "Borrego",
       "Forte",
       "Forte Koup",
+      "Niro",
       "Optima",
       "Rio",
       "Rio5",
