@@ -867,6 +867,7 @@ export const data = {
       "CX-5",
       "CX-7",
       "CX-9",
+      "CX-30",
       "GLC",
       "MAZDA2",
       "MAZDA3",
@@ -1364,7 +1365,11 @@ export const data = {
   "Tesla": {
     "models": [
       "Roadster",
-      "Model S"
+      "Model S",
+      "Model 3",
+      "Model X",
+      "Model Y",
+      "Cybertruck",
     ]
   },
   "Toyota": {
