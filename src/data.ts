@@ -1439,6 +1439,7 @@ export const data = {
       "R32",
       "Routan",
       "Scirocco",
+      "Taos",
       "Tiguan",
       "Touareg",
       "Vanagon"
