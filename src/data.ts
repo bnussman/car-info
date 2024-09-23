@@ -1116,6 +1116,7 @@ export const data = {
       "Frontier",
       "GT-R",
       "Juke",
+      "Kicks",
       "Leaf",
       "Maxima",
       "Murano",
