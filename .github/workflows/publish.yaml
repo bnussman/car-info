@@ -62,5 +62,5 @@ jobs:
       - name: pnpm publish
         # continue-on-error: true
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: pnpm publish --access public
