@@ -62,5 +62,7 @@ jobs:
       - name: pnpm publish
         # continue-on-error: true
         env:
-          npm_config__authtoken: ${{ secrets.NPM_TOKEN }}
-        run: pnpm publish --access public
+          NPM_TOKEN: ${{secrets.NPM_TOKEN}}
+        run: |
+          npm config set //registry.npmjs.org/:_authToken ${NPM_TOKEN}
+          pnpm publish --access public
