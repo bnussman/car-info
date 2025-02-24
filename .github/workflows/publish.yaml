@@ -59,10 +59,9 @@ jobs:
           name: dist
           path: dist/
 
-      - name: pnpm publish
-        # continue-on-error: true
+      - run: npm config set //registry.npmjs.org/:_authToken ${NPM_TOKEN}
         env:
           NPM_TOKEN: ${{secrets.NPM_TOKEN}}
-        run: |
-          npm config set //registry.npmjs.org/:_authToken ${NPM_TOKEN}
-          pnpm publish --access public
+
+      - run: pnpm publish --access public
+        continue-on-error: true
