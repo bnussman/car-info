@@ -1,6 +1,6 @@
 export const data = {
-  "Acura": {
-    "models": [
+  Acura: {
+    models: [
       "2.2CL",
       "2.3CL",
       "3.0CL",
@@ -20,29 +20,17 @@ export const data = {
       "TL",
       "TSX",
       "Vigor",
-      "ZDX"
-    ]
+      "ZDX",
+    ],
   },
   "Alfa Romeo": {
-    "models": [
-      "164",
-      "8C Competizione",
-      "GTV-6",
-      "Milano",
-      "Spider"
-    ]
+    models: ["164", "8C Competizione", "GTV-6", "Milano", "Spider"],
   },
-  "AMC": {
-    "models": [
-      "Alliance",
-      "Concord",
-      "Eagle",
-      "Encore",
-      "Spirit"
-    ]
+  AMC: {
+    models: ["Alliance", "Concord", "Eagle", "Encore", "Spirit"],
   },
   "Aston Martin": {
-    "models": [
+    models: [
       "DB7",
       "DB9",
       "DBS",
@@ -51,11 +39,11 @@ export const data = {
       "V12 Vantage",
       "V8 Vantage",
       "Vanquish",
-      "Virage"
-    ]
+      "Virage",
+    ],
   },
-  "Audi": {
-    "models": [
+  Audi: {
+    models: [
       "100",
       "200",
       "4000",
@@ -87,18 +75,14 @@ export const data = {
       "TT",
       "TT RS",
       "TTS",
-      "V8 Quattro"
-    ]
+      "V8 Quattro",
+    ],
   },
-  "Avanti": {
-    "models": [
-      "Convertible",
-      "Coupe",
-      "Sedan"
-    ]
+  Avanti: {
+    models: ["Convertible", "Coupe", "Sedan"],
   },
-  "Bentley": {
-    "models": [
+  Bentley: {
+    models: [
       "Arnage",
       "Azure",
       "Brooklands",
@@ -106,11 +90,11 @@ export const data = {
       "Corniche",
       "Eight",
       "Mulsanne",
-      "Turbo R"
-    ]
+      "Turbo R",
+    ],
   },
-  "BMW": {
-    "models": [
+  BMW: {
+    models: [
       "128i",
       "135i",
       "135is",
@@ -205,11 +189,11 @@ export const data = {
       "X6",
       "Z3",
       "Z4",
-      "Z8"
-    ]
+      "Z8",
+    ],
   },
-  "Buick": {
-    "models": [
+  Buick: {
+    models: [
       "Century",
       "Electra",
       "Enclave",
@@ -228,11 +212,11 @@ export const data = {
       "Skylark",
       "Somerset",
       "Terraza",
-      "Verano"
-    ]
+      "Verano",
+    ],
   },
-  "Cadillac": {
-    "models": [
+  Cadillac: {
+    models: [
       "Allante",
       "ATS",
       "Brougham",
@@ -250,11 +234,11 @@ export const data = {
       "SRX",
       "STS",
       "XLR",
-      "XTS"
-    ]
+      "XTS",
+    ],
   },
-  "Chevrolet": {
-    "models": [
+  Chevrolet: {
+    models: [
       "Astro",
       "Avalanche",
       "Aveo",
@@ -306,11 +290,11 @@ export const data = {
       "Traverse",
       "Uplander",
       "Venture",
-      "Volt"
-    ]
+      "Volt",
+    ],
   },
-  "Chrysler": {
-    "models": [
+  Chrysler: {
+    models: [
       "200",
       "300",
       "300M",
@@ -338,24 +322,17 @@ export const data = {
       "Sebring",
       "TC by Maserati",
       "Town &amp; Country",
-      "Voyager"
-    ]
+      "Voyager",
+    ],
   },
-  "Daewoo": {
-    "models": [
-      "Lanos",
-      "Leganza",
-      "Nubira"
-    ]
+  Daewoo: {
+    models: ["Lanos", "Leganza", "Nubira"],
   },
-  "Daihatsu": {
-    "models": [
-      "Charade",
-      "Rocky"
-    ]
+  Daihatsu: {
+    models: ["Charade", "Rocky"],
   },
-  "Datsun": {
-    "models": [
+  Datsun: {
+    models: [
       "200SX",
       "210",
       "280ZX",
@@ -368,16 +345,14 @@ export const data = {
       "Pickup",
       "Pulsar",
       "Sentra",
-      "Stanza"
-    ]
+      "Stanza",
+    ],
   },
-  "DeLorean": {
-    "models": [
-      "DMC-12"
-    ]
+  DeLorean: {
+    models: ["DMC-12"],
   },
-  "Dodge": {
-    "models": [
+  Dodge: {
+    models: [
       "400",
       "600",
       "Aries",
@@ -424,20 +399,14 @@ export const data = {
       "St. Regis",
       "Stealth",
       "Stratus",
-      "Viper"
-    ]
+      "Viper",
+    ],
   },
-  "Eagle": {
-    "models": [
-      "Medallion",
-      "Premier",
-      "Summit",
-      "Talon",
-      "Vision"
-    ]
+  Eagle: {
+    models: ["Medallion", "Premier", "Summit", "Talon", "Vision"],
   },
-  "Ferrari": {
-    "models": [
+  Ferrari: {
+    models: [
       "308 GTB Quattrovalvole",
       "308 GTBI",
       "308 GTS Quattrovalvole",
@@ -469,27 +438,25 @@ export const data = {
       "F50",
       "FF",
       "Mondial",
-      "Testarossa"
-    ]
+      "Testarossa",
+    ],
   },
-  "FIAT": {
-    "models": [
+  FIAT: {
+    models: [
       "2000 Spider",
       "500",
       "Bertone X1/9",
       "Brava",
       "Pininfarina Spider",
       "Strada",
-      "X1/9"
-    ]
+      "X1/9",
+    ],
   },
-  "Fisker": {
-    "models": [
-      "Karma"
-    ]
+  Fisker: {
+    models: ["Karma"],
   },
-  "Ford": {
-    "models": [
+  Ford: {
+    models: [
       "Aerostar",
       "Aspire",
       "Bronco",
@@ -538,25 +505,17 @@ export const data = {
       "Transit Connect",
       "Windstar",
       "ZX2 Escort",
-      "Maverick"
-    ]
+      "Maverick",
+    ],
   },
-  "Freightliner": {
-    "models": [
-      "Sprinter"
-    ]
+  Freightliner: {
+    models: ["Sprinter"],
   },
-  "Geo": {
-    "models": [
-      "Metro",
-      "Prizm",
-      "Spectrum",
-      "Storm",
-      "Tracker"
-    ]
+  Geo: {
+    models: ["Metro", "Prizm", "Spectrum", "Storm", "Tracker"],
   },
-  "GMC": {
-    "models": [
+  GMC: {
+    models: [
       "Acadia",
       "Caballero",
       "Canyon",
@@ -580,11 +539,11 @@ export const data = {
       "Typhoon",
       "Vandura",
       "Yukon",
-      "Yukon XL"
-    ]
+      "Yukon XL",
+    ],
   },
-  "Honda": {
-    "models": [
+  Honda: {
+    models: [
       "Accord",
       "Civic",
       "CR-V",
@@ -601,19 +560,14 @@ export const data = {
       "Pilot",
       "Prelude",
       "Ridgeline",
-      "S2000"
-    ]
+      "S2000",
+    ],
   },
-  "HUMMER": {
-    "models": [
-      "H1",
-      "H2",
-      "H3",
-      "H3T"
-    ]
+  HUMMER: {
+    models: ["H1", "H2", "H3", "H3T"],
   },
-  "Hyundai": {
-    "models": [
+  Hyundai: {
+    models: [
       "Accent",
       "Azera",
       "Elantra",
@@ -630,13 +584,14 @@ export const data = {
       "Tiburon",
       "Tucson",
       "Veloster",
+      "Venue",
       "Veracruz",
       "XG300",
-      "XG350"
-    ]
+      "XG350",
+    ],
   },
-  "Infiniti": {
-    "models": [
+  Infiniti: {
+    models: [
       "EX35",
       "EX37",
       "FX35",
@@ -659,11 +614,11 @@ export const data = {
       "M56",
       "Q45",
       "QX4",
-      "QX56"
-    ]
+      "QX56",
+    ],
   },
-  "Isuzu": {
-    "models": [
+  Isuzu: {
+    models: [
       "Amigo",
       "Ascender",
       "Axiom",
@@ -680,11 +635,11 @@ export const data = {
       "Stylus",
       "Trooper",
       "Trooper II",
-      "VehiCROSS"
-    ]
+      "VehiCROSS",
+    ],
   },
-  "Jaguar": {
-    "models": [
+  Jaguar: {
+    models: [
       "S-Type",
       "X-Type",
       "XF",
@@ -700,11 +655,11 @@ export const data = {
       "XJ Sport",
       "XK8",
       "XK",
-      "XKR"
-    ]
+      "XKR",
+    ],
   },
-  "Jeep": {
-    "models": [
+  Jeep: {
+    models: [
       "Cherokee",
       "CJ",
       "Comanche",
@@ -718,11 +673,11 @@ export const data = {
       "Renegade",
       "Scrambler",
       "Wagoneer",
-      "Wrangler"
-    ]
+      "Wrangler",
+    ],
   },
-  "Kia": {
-    "models": [
+  Kia: {
+    models: [
       "Amanti",
       "Borrego",
       "Forte",
@@ -738,28 +693,25 @@ export const data = {
       "Soul",
       "Spectra",
       "Spectra5",
-      "Sportage"
-    ]
+      "Sportage",
+    ],
   },
-  "Lamborghini": {
-    "models": [
+  Lamborghini: {
+    models: [
       "Aventador",
       "Countach",
       "Diablo",
       "Gallardo",
       "Jalpa",
       "LM002",
-      "Murcielago"
-    ]
+      "Murcielago",
+    ],
   },
-  "Lancia": {
-    "models": [
-      "Beta",
-      "Zagato"
-    ]
+  Lancia: {
+    models: ["Beta", "Zagato"],
   },
   "Land Rover": {
-    "models": [
+    models: [
       "Defender",
       "Discovery",
       "Freelander",
@@ -768,11 +720,11 @@ export const data = {
       "LR4",
       "Range Rover",
       "Range Rover Evoque",
-      "Range Rover Sport"
-    ]
+      "Range Rover Sport",
+    ],
   },
-  "Lexus": {
-    "models": [
+  Lexus: {
+    models: [
       "CT 200h",
       "ES 250",
       "ES 300",
@@ -809,11 +761,11 @@ export const data = {
       "RX 450h",
       "SC 300",
       "SC 400",
-      "SC 430"
-    ]
+      "SC 430",
+    ],
   },
-  "Lincoln": {
-    "models": [
+  Lincoln: {
+    models: [
       "Aviator",
       "Blackwood",
       "Continental",
@@ -829,37 +781,28 @@ export const data = {
       "Navigator",
       "Navigator L",
       "Town Car",
-      "Zephyr"
-    ]
+      "Zephyr",
+    ],
   },
-  "Lotus": {
-    "models": [
-      "Elan",
-      "Elise",
-      "Esprit",
-      "Evora",
-      "Exige"
-    ]
+  Lotus: {
+    models: ["Elan", "Elise", "Esprit", "Evora", "Exige"],
   },
-  "Maserati": {
-    "models": [
+  Maserati: {
+    models: [
       "430",
       "Biturbo",
       "Coupe",
       "GranSport",
       "GranTurismo",
       "Quattroporte",
-      "Spyder"
-    ]
+      "Spyder",
+    ],
   },
-  "Maybach": {
-    "models": [
-      "57",
-      "62"
-    ]
+  Maybach: {
+    models: ["57", "62"],
   },
-  "Mazda": {
-    "models": [
+  Mazda: {
+    models: [
       "323",
       "626",
       "929",
@@ -885,16 +828,14 @@ export const data = {
       "Protege5",
       "RX-7",
       "RX-8",
-      "Tribute"
-    ]
+      "Tribute",
+    ],
   },
-  "McLaren": {
-    "models": [
-      "MP4-12C"
-    ]
+  McLaren: {
+    models: ["MP4-12C"],
   },
   "Mercedes-Benz": {
-    "models": [
+    models: [
       "190D",
       "190E",
       "240D",
@@ -1032,11 +973,11 @@ export const data = {
       "SLK55 AMG",
       "SLR",
       "SLS AMG",
-      "Sprinter"
-    ]
+      "Sprinter",
+    ],
   },
-  "Mercury": {
-    "models": [
+  Mercury: {
+    models: [
       "Capri",
       "Cougar",
       "Grand Marquis",
@@ -1053,17 +994,14 @@ export const data = {
       "Topaz",
       "Tracer",
       "Villager",
-      "Zephyr"
-    ]
+      "Zephyr",
+    ],
   },
-  "Merkur": {
-    "models": [
-      "Scorpio",
-      "XR4Ti"
-    ]
+  Merkur: {
+    models: ["Scorpio", "XR4Ti"],
   },
-  "MINI": {
-    "models": [
+  MINI: {
+    models: [
       "Cooper Clubman",
       "Cooper S Clubman",
       "Cooper Countryman",
@@ -1073,11 +1011,11 @@ export const data = {
       "Cooper",
       "Cooper S",
       "Cooper Roadster",
-      "Cooper S Roadster"
-    ]
+      "Cooper S Roadster",
+    ],
   },
-  "Mitsubishi": {
-    "models": [
+  Mitsubishi: {
+    models: [
       "3000GT",
       "Cordia",
       "Diamante",
@@ -1099,11 +1037,11 @@ export const data = {
       "Sigma",
       "Starion",
       "Tredia",
-      "Van"
-    ]
+      "Van",
+    ],
   },
-  "Nissan": {
-    "models": [
+  Nissan: {
+    models: [
       "200SX",
       "240SX",
       "300ZX",
@@ -1133,11 +1071,11 @@ export const data = {
       "Titan",
       "Van",
       "Versa",
-      "Xterra"
-    ]
+      "Xterra",
+    ],
   },
-  "Oldsmobile": {
-    "models": [
+  Oldsmobile: {
+    models: [
       "88",
       "Achieva",
       "Alero",
@@ -1154,19 +1092,14 @@ export const data = {
       "Omega",
       "Regency",
       "Silhouette",
-      "Toronado"
-    ]
+      "Toronado",
+    ],
   },
-  "Peugeot": {
-    "models": [
-      "405",
-      "504",
-      "505",
-      "604"
-    ]
+  Peugeot: {
+    models: ["405", "504", "505", "604"],
   },
-  "Plymouth": {
-    "models": [
+  Plymouth: {
+    models: [
       "Acclaim",
       "Arrow",
       "Breeze",
@@ -1185,11 +1118,11 @@ export const data = {
       "Scamp",
       "Sundance",
       "Trailduster",
-      "Voyager"
-    ]
+      "Voyager",
+    ],
   },
-  "Pontiac": {
-    "models": [
+  Pontiac: {
+    models: [
       "1000",
       "6000",
       "Aztek",
@@ -1215,11 +1148,11 @@ export const data = {
       "Sunfire",
       "Torrent",
       "Trans Sport",
-      "Vibe"
-    ]
+      "Vibe",
+    ],
   },
-  "Porsche": {
-    "models": [
+  Porsche: {
+    models: [
       "911",
       "924",
       "928",
@@ -1229,28 +1162,17 @@ export const data = {
       "Carrera GT",
       "Cayenne",
       "Cayman",
-      "Panamera"
-    ]
+      "Panamera",
+    ],
   },
-  "RAM": {
-    "models": [
-      "1500",
-      "2500",
-      "3500",
-      "4500"
-    ]
+  RAM: {
+    models: ["1500", "2500", "3500", "4500"],
   },
-  "Renault": {
-    "models": [
-      "18i",
-      "Fuego",
-      "Le Car",
-      "R18",
-      "Sportwagon"
-    ]
+  Renault: {
+    models: ["18i", "Fuego", "Le Car", "R18", "Sportwagon"],
   },
   "Rolls-Royce": {
-    "models": [
+    models: [
       "Camargue",
       "Corniche",
       "Ghost",
@@ -1259,22 +1181,14 @@ export const data = {
       "Silver Dawn",
       "Silver Seraph",
       "Silver Spirit",
-      "Silver Spur"
-    ]
+      "Silver Spur",
+    ],
   },
-  "Saab": {
-    "models": [
-      "9-2X",
-      "9-3",
-      "9-4X",
-      "9-5",
-      "9-7X",
-      "900",
-      "9000"
-    ]
+  Saab: {
+    models: ["9-2X", "9-3", "9-4X", "9-5", "9-7X", "900", "9000"],
   },
-  "Saturn": {
-    "models": [
+  Saturn: {
+    models: [
       "Astra",
       "Aura",
       "ION",
@@ -1296,37 +1210,23 @@ export const data = {
       "SL2",
       "SW1",
       "SW2",
-      "Vue"
-    ]
+      "Vue",
+    ],
   },
-  "Scion": {
-    "models": [
-      "FR-S",
-      "iQ",
-      "tC",
-      "xA",
-      "xB",
-      "xD"
-    ]
+  Scion: {
+    models: ["FR-S", "iQ", "tC", "xA", "xB", "xD"],
   },
-  "smart": {
-    "models": [
-      "fortwo"
-    ]
+  smart: {
+    models: ["fortwo"],
   },
-  "SRT": {
-    "models": [
-      "Viper"
-    ]
+  SRT: {
+    models: ["Viper"],
   },
-  "Sterling": {
-    "models": [
-      "825",
-      "827"
-    ]
+  Sterling: {
+    models: ["825", "827"],
   },
-  "Subaru": {
-    "models": [
+  Subaru: {
+    models: [
       "Baja",
       "Brat",
       "BRZ",
@@ -1341,11 +1241,11 @@ export const data = {
       "SVX",
       "Tribeca",
       "XT",
-      "XV Crosstrek"
-    ]
+      "XV Crosstrek",
+    ],
   },
-  "Suzuki": {
-    "models": [
+  Suzuki: {
+    models: [
       "Aerio",
       "Equator",
       "Esteem",
@@ -1360,21 +1260,21 @@ export const data = {
       "Verona",
       "Vitara",
       "X-90",
-      "XL7"
-    ]
+      "XL7",
+    ],
   },
-  "Tesla": {
-    "models": [
+  Tesla: {
+    models: [
       "Roadster",
       "Model S",
       "Model 3",
       "Model X",
       "Model Y",
       "Cybertruck",
-    ]
+    ],
   },
-  "Toyota": {
-    "models": [
+  Toyota: {
+    models: [
       "4Runner",
       "Avalon",
       "Camry",
@@ -1407,17 +1307,14 @@ export const data = {
       "Tundra",
       "Van",
       "Venza",
-      "Yaris"
-    ]
+      "Yaris",
+    ],
   },
-  "Triumph": {
-    "models": [
-      "TR7",
-      "TR8"
-    ]
+  Triumph: {
+    models: ["TR7", "TR8"],
   },
-  "Volkswagen": {
-    "models": [
+  Volkswagen: {
+    models: [
       "Beetle",
       "Cabrio",
       "Cabriolet",
@@ -1443,11 +1340,11 @@ export const data = {
       "Taos",
       "Tiguan",
       "Touareg",
-      "Vanagon"
-    ]
+      "Vanagon",
+    ],
   },
-  "Volvo": {
-    "models": [
+  Volvo: {
+    models: [
       "240",
       "260",
       "740",
@@ -1469,16 +1366,10 @@ export const data = {
       "V90",
       "XC60",
       "XC70",
-      "XC90"
-    ]
+      "XC90",
+    ],
   },
-  "Yugo": {
-    "models": [
-      "GV",
-      "GVC",
-      "GVL",
-      "GVS",
-      "GVX"
-    ]
-  }
+  Yugo: {
+    models: ["GV", "GVC", "GVL", "GVS", "GVX"],
+  },
 } as const;
