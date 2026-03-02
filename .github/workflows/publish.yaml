@@ -1,67 +1,33 @@
-name: Build
+name: publish
 
-on:
-  push:
+on: push
 
 jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
-
-      - uses: pnpm/action-setup@v4
-        with:
-          run_install: false
-          version: latest
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          cache: pnpm
-
-      - name: Install
-        run: pnpm install --frozen-lockfile
-
-      - name: Build
-        run: pnpm build
-
-      - name: Archive build
-        uses: actions/upload-artifact@v4
+      - uses: oven-sh/setup-bun@v2
+      - run: bun install
+      - run: bun run build
+      - run: bun run test
+      - uses: actions/upload-artifact@v4
         with:
           name: dist
           path: dist/
 
-  publish_npm:
-    name: NPM publish
+  publish:
     needs: ["build"]
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
-
-      - uses: pnpm/action-setup@v4
-        with:
-          run_install: false
-          version: latest
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          cache: pnpm
-
-      - name: Download build
-        uses: actions/download-artifact@v4
+      - uses: oven-sh/setup-bun@v2
+      - uses: actions/download-artifact@v4
         with:
           name: dist
           path: dist/
-
-      - run: npm config set //registry.npmjs.org/:_authToken ${NPM_TOKEN}
+      - run: bun publish --access public
+        continue-on-error: true
         env:
           NPM_TOKEN: ${{secrets.NPM_TOKEN}}
-
-      - run: pnpm publish --access public
-        continue-on-error: true
