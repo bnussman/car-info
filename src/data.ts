@@ -1315,6 +1315,7 @@ export const data = {
   },
   Volkswagen: {
     models: [
+      "Atlas",
       "Beetle",
       "Cabrio",
       "Cabriolet",

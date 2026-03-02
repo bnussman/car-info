@@ -12,7 +12,10 @@ type Make = keyof typeof data;
 export function getModels<T extends Make>(make: T): typeof data[T]['models'];
 export function getModels(make: string): [];
 export function getModels(make: string) {
-  return data[make]?.models ?? [];
+  if (make in data) {
+    return data[make as Make].models;
+  }
+  return [];
 }
 
 /**
