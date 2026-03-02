@@ -2,6 +2,10 @@ name: publish
 
 on: push
 
+permissions:
+  id-token: write  # Required for OIDC
+  contents: read
+
 jobs:
   build:
     name: Build
@@ -29,5 +33,3 @@ jobs:
           path: dist/
       - run: bun publish --access public
         continue-on-error: true
-        env:
-          NPM_CONFIG_TOKEN: ${{ secrets.NPM_TOKEN }}
