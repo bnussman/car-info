@@ -31,5 +31,5 @@ jobs:
         with:
           name: dist
           path: dist/
-      - run: bun publish --access public
+      - run: npm publish --access public
         continue-on-error: true
