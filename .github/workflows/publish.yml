@@ -35,4 +35,3 @@ jobs:
           name: dist
           path: dist/
       - run: npm publish --access public --provenance
-        continue-on-error: true
