@@ -27,8 +27,7 @@ jobs:
         with:
           name: dist
           path: dist/
-      - run: echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       - run: bun publish --access public
         continue-on-error: true
+        env:
+          NPM_CONFIG_TOKEN: ${{ secrets.NPM_TOKEN }}
