@@ -1,6 +1,6 @@
 {
   "name": "car-info",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "Typescript Library for Car Make and Models",
   "type": "module",
   "types": "./dist/index.d.mts",

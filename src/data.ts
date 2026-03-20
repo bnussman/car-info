@@ -288,6 +288,7 @@ export const data = {
       "TrailBlazer",
       "TrailBlazer EXT",
       "Traverse",
+      "Trax",
       "Uplander",
       "Venture",
       "Volt",
