@@ -1,10 +1,14 @@
 {
   "name": "car-info",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "Typescript Library for Car Make and Models",
   "type": "module",
-  "types": "./dist/index.d.mts",
-  "module": "./dist/index.mjs",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.mts"
+    }
+  },
   "scripts": {
     "dev": "tsdown --watch",
     "build": "tsdown",
